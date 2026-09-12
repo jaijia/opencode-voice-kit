@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "mode": "full",
+  "backend": "edge_tts",
+  "debug": false,
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "edge_tts": {
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "+15%",
+    "volume": "+0%",
+    "command": ["python", "-m", "edge_tts"]
+  }
+}
